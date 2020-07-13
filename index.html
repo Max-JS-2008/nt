@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bomba-nt</title>
+</head>
+<style type="text/css">
+	h1 {
+		color: #fff;
+	}
+	body {
+		background: black;
+	}
+	button {
+		font-size: 20px
+	}
+</style>
+<script type="text/javascript">
+	function zakazat() {
+		document.location.href = "k1zakazat.html";
+	}
+	function oplata() {
+		document.location.href = "k1poluch.html";
+	}
+	function zakazat1() {
+		document.location.href = "k2zakazat.html";
+	}
+	function oplata1() {
+		document.location.href = "k2poluch.html"
+	}
+</script>
+<body>
+	<h1 align="center">магазин оружия и петард bomba-nt</h1>
+	<h1 align="center">в асортименте:</h1>
+	<hr>
+	<h1 align="center">петарда корсар 1</h1>
+	<p align="center"><img src="korsar1.jpg" width="300px" height="200"></p>
+	<p align="center"><button onclick="oplata()">ОПЛАТИТЬ ПРИ ПОЛУЧЕНИЕ</button></p>
+	<p align="center"><button onclick="zakazat()">ЗАКАЗАТЬ</button></p>
+	<hr>
+	<h1 align="center">петарда корсар 2</h1>
+	<p align="center"><img src="korsar2.png" width="300px" height="200"></p>
+	<p align="center"><button onclick="oplata1()">ОПЛАТИТЬ ПРИ ПОЛУЧЕНИЕ</button></p>
+	<p align="center"><button onclick="zakazat1()">ЗАКАЗАТЬ</button></p>
+	<hr>
+</body>
+</html>
